@@ -219,6 +219,14 @@ body {
 	margin-top: 0;
 }
 
+.single-post-text p {
+	margin: 10px 0;
+}
+
+.single-post-text ul {
+	margin-top: 10px;
+}
+
 .single-post-text > *:last-child {
 	margin-bottom: 0;
 }
