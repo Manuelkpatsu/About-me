@@ -2883,6 +2883,12 @@ iframe, object {
 /* ========================================================================== 
 -2.5 Scroll To Up 
 ========================================================================== */
+.scroll-top {
+	position: absolute;
+    overflow: hidden;
+    z-index: 100;
+}
+
 .back-to-top {
 	display: none;
 	position: fixed;
