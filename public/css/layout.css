@@ -2494,7 +2494,7 @@
 .box-items .box-item .desc .name {
 	height: 50px;
 	display: block;
-	font-size: 18px;
+	font-size: 14px;
 	color: #fff;
 	font-weight: 700;
 	transition: all 0.3s ease 0s;
@@ -2967,7 +2967,7 @@ iframe, object {
 }
 
 .popup-box .image {
-	height: 560px;
+	height: 380px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
