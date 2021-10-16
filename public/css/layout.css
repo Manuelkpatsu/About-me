@@ -1,9 +1,7 @@
 /**
 *	Myour - Personal Portfolio Template (HTML)
 *	Version: 1.0
-*	Author: beshleyua
-*	Author URL: http://themeforest.net/user/beshleyua
-*	Copyright Â© Myour by beshleyua. All Rights Reserved.
+*	Author: Manuel Ahuno
 **/
 
 /* TABLE OF CONTENTS
@@ -13,11 +11,9 @@
 	- About
 	- Resume
 	- Skills
-	- Service
 	- Portfolio
 	- Box Items
 	- Contacts
-	- Blog
 	- Footer
 	- Popups
 */
@@ -2525,20 +2521,21 @@
 }
 
 /* - Contacts */
-.section.contacts .alert-success {
-	display: none;
-}
-
-.section.contacts .alert-success p {
-	font-size: 14px;
-	color: #FFF;
-}
-
-
 .contact-form {
 	padding-right: 40px;
 	float: left;
 	width: 50%;
+}
+
+.error {
+	color: red;
+	font-size: 14px;
+	margin-top: 6px;
+	display: none;
+}
+
+.invalid {
+	border-bottom: 1px solid red;
 }
 
 .contact-form .group-val {
@@ -2563,7 +2560,6 @@
 .contact-form .group-val .label strong {
 	color: #68e0cf;
 }
-
 
 .contact-info {
 	padding: 30px;
@@ -2973,7 +2969,7 @@ iframe, object {
 }
 
 .popup-box .image {
-	height: 380px;
+	height: 300px;
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
