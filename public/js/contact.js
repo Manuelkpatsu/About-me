@@ -57,7 +57,7 @@ window.addEventListener("DOMContentLoaded", function () {
         emailjs.send("service_a8yyu8g", "template_ivm4nzv", {
             from_name: email,
             to_name: "Emmanuel Ahuno",
-            reply_to: email,
+            reply_to: name,
             message: msg,
         }).then(function() {
             form.reset();
